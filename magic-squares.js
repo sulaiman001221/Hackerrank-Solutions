@@ -24,7 +24,7 @@ function formingMagicSquare(s) {
         totalCost += Math.abs(a[i][j] - b[i][j]);
       }
     }
-    console.log(a, b, totalCost); // For debugging
+    //console.log(a, b, totalCost); // For debugging
     return totalCost;
   }
 
